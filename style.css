@@ -12,4 +12,9 @@ body {
 
 .child {
   background-color: tomato;
+  display: flex;
+  color: white;
+  font-size: 28px;
+  align-items: center;
+  justify-content: center;
 }
