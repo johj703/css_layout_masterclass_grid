@@ -7,24 +7,28 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr;
 
   grid-template-areas: 
-    "header header header header"
-    "content content content menu"
-    "content content content menu"
-    "footer footer footer footer"
+    "a a a a"
+    "b b b c"
+    "b b b c"
+    "d d d d"
 }
 
 header {
   background-color: aqua;
+  grid-area: header;
 }
 
 section {
   background-color: coral;
+  grid-area: content;
 }
 
 aside {
   background-color: forestgreen;
+  grid-area: menu;
 }
 
 footer {
   background-color: deeppink;
+  grid-area: footer;
 }
