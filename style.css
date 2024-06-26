@@ -4,7 +4,13 @@ body {
   display: grid;
   height: 100vh
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  grid-template-areas: 
+    "header header header header"
+    "content content content menu"
+    "content content content menu"
+    "footer footer footer footer"
 }
 
 header {
