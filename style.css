@@ -25,3 +25,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.child:nth-child(6) {
+  background-color: teal;
+  align-self: center;
+  justify-self: center;
+}
