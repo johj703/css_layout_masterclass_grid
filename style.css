@@ -8,7 +8,7 @@ align-items(content)는 자식이 height의 값을 가질 때 세로 방향의 �
   display: grid;
   gap: 10px;
   height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr minmax(250px, 1fr) 1fr;
 }
 .child {
   background-color: tomato;
