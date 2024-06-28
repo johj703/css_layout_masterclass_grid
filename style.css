@@ -11,8 +11,8 @@ body {
   grid-auto-rows: 1fr;
   grid-auto-columns: 1fr;
   grid-auto-flow: column;
-  /* justify-items는 가로 방향의 위치를
-  align-items는 세로 방향의 위치를 담당한다 */
+  /* justify-items는 자식이 width 값을 가질 때 가로 방향의 위치를
+  align-items는 자식이 height의 값을 가질 때 세로 방향의 위치를 담당한다 */
   justify-items: stretch;
   align-items: stretch;
 }
