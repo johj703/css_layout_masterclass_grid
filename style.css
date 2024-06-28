@@ -8,28 +8,15 @@ align-items는 자식이 height의 값을 가질 때 세로 방향의 위치를 
   display: grid;
   gap: 10px;
   min-height: 50vh;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-auto-rows: 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-flow: column;
-  justify-items: stretch;
-  align-items: stretch;
+  grid-template-columns: repeat(5, 100ox);
+  grid-template-rows: repeat(2, 100px);
+  background-color: lightblue;
 }
 .child {
-  width: 50px;
   background-color: tomato;
   color: white;
   font-size: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.child:nth-child(6) {
-  background-color: teal;
-  /* align-self: center;
-  justify-self: center; */
-  place-self: center;
-  grid-column: span 2;
 }
