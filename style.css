@@ -28,6 +28,7 @@ body {
 
 .child:nth-child(6) {
   background-color: teal;
-  align-self: center;
-  justify-self: center;
+  /* align-self: center;
+  justify-self: center; */
+  place-self: start end;
 }
