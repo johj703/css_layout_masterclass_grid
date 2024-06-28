@@ -7,8 +7,8 @@ align-items는 자식이 height의 값을 가질 때 세로 방향의 위치를 
 .father {
   display: grid;
   gap: 10px;
-  min-height: 50vh;
-  grid-template-columns: repeat(5, 100ox);
+  height: 100vh;
+  grid-template-columns: repeat(5, 100px);
   grid-template-rows: repeat(2, 100px);
   background-color: lightblue;
 }
