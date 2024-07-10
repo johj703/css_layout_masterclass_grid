@@ -18,15 +18,17 @@ align-items(content)는 자식이 height의 값을 가질 때 세로 방향의 �
   align-items: center;
 }
 
+.child:first-child {
+  /* grid-column-start: 2;
+  grid-column-end: -1; 
+  grid-row: korea / greece; */
+  background-color: khaki;
+  grid-row: span 2;
+}
+
 .child:last-child {
   background-color: turquoise;
   /* grid-column-start: 2;
   grid-column-end: -1; 
   grid-column: potato / brocoli; */
-}
-
-.child:first-child {
-  /* grid-column-start: 2;
-  grid-column-end: -1; 
-  grid-row: korea / greece; */
 }
