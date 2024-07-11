@@ -21,13 +21,15 @@ align-items(content)는 자식이 height의 값을 가질 때 세로 방향의 �
 .child:first-child {
   /* grid-column-start: 2;
   grid-column-end: -1; 
-  grid-row: korea / greece; */
-  background-color: khaki;
+  grid-row: korea / greece;
   grid-row: span 2;
+  */
+  background-color: khaki;
 }
 
 .child:last-child {
   background-color: turquoise;
+  gird-column: span 2;
   /* grid-column-start: 2;
   grid-column-end: -1; 
   grid-column: potato / brocoli; */
